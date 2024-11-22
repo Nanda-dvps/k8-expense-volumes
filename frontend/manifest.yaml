@@ -22,8 +22,8 @@ spec:
         project: expense
     spec:
       containers:
-       - name: frontend
-          image: nanda7/frontend:v1
+      - name: frontend
+        image: nanda7/frontend:v1
 ---
 kind: Service
 apiVersion: v1
